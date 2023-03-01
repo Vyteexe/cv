@@ -1,0 +1,293 @@
+body{
+    background-color: rgb(20, 17, 17);
+    
+}
+
+body p{
+    font-size: 15px;
+}
+
+header{
+    display: flex;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 10%;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+#imgperfil{
+    position: relative;
+    left: 20%;
+    width: 120px;
+    height: 120px;
+}
+
+header h1{
+    margin-bottom: 7px;
+    position: relative;
+    left: 20%;
+}
+
+header h3{
+    margin-top: 7px;
+    position: relative;
+    left: 20%;
+    color: grey;
+}
+
+#principal{
+    background-color: aliceblue;
+    
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+#titulos{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tittle{
+    text-align: center;
+    position: relative;
+    
+    width: 100%;
+}
+
+#tittle1,#tittle2,#tittle3{
+    cursor:pointer;
+}
+
+#textos, #textos2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#textos2, #textos3{
+    display: none;
+}
+
+
+/* CSS */
+.button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.encabezado{
+    position: relative;
+    left: 10%;
+}
+
+.encabezado2{
+    position: relative;
+    width: 80%;
+    left: 25%;
+}
+
+.encabezado2oculto{
+    width: 80%;
+    display: none;
+    position: relative;
+    left: 30%;
+}
+
+#oculto3{
+    left: 15%;
+}
+
+.encabezado h3, .encabezado2 h2{
+    margin-bottom: 5px;
+}
+
+.encabezado2oculto h2{
+    margin-bottom: 5px;
+}
+
+.parrafo,.parrafo2,.parrafo3{
+    position: relative;
+    width: 80%;
+    left: 12%;
+}
+
+.parrafo p,.parrafo2 p, .parrafo3 p {
+    margin-top: 5px;
+}
+
+
+
+#imagenesocultas1{
+    display: flex;
+}
+
+#imagenoculta1,#arrowderecha,#arrowizquierda,#imagenoculta2,#imagenoculta3,#imagenoculta4,#imagenoculta5,#imagenoculta6{
+    display: none;
+}
+#imagenoculta1,#imagenoculta2{
+    margin: 0;   
+    width: 70%;
+    position: relative;
+    left: 10%;
+}
+#arrowderecha, #arrowizquierda{
+    cursor: pointer;
+}
+#arrowizquierda{
+    position: relative;
+    top: 200px;
+    left: 3%;
+    width: 60px;
+    height: 60px;
+}
+#arrowderecha{
+    position: relative;
+    top: 200px;
+    left: 15%;
+    width: 60px;
+    height: 60px;
+}
+
+#imagenoculta3{
+    margin: 0;   
+    width: 50%;
+    position: relative;
+    left: 5%;
+}
+#imagenoculta4{
+    margin: 0;   
+    width: 20%;
+    position: relative;
+    left: 6%;
+}
+
+#imagenoculta5{
+    margin: 0;   
+    width: 50%;
+    position: relative;
+    left: 5%;
+}
+
+#imagenoculta6{
+    margin: 0;   
+    width: 20%;
+    position: relative;
+    left: 6%;
+}
+
+#oculto5{
+    left: 15%;
+}
+
+#oculto7{
+    left: 30%;
+}
+
+.parrafo2oculto{
+    display: none;
+    position: relative;
+    width: 80%;
+    left: 12%;
+}
+
+.parrafo2oculto p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+span{
+    font-weight: bold;
+}
+
+
+#textos3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#textos3 h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    position: relative;
+    left: 10%;
+    width: 80%;
+}
+
+#contacto{
+    margin-top: 10px;
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+
+#contacto h2{
+    margin-top: 10px;
+}
+
+#contactosarticulos1, #contactosarticulos2{
+    position: relative;
+    left: 10%;
+    display: flex;
+}
+
+#contactosarticulos1 img,#contactosarticulos2 img{
+    position: relative;
+    width: 25px;
+    height: 25px;
+}
+
+#contactosarticulos1 p,#contactosarticulos2 p{
+    margin: 0;
+    margin-right: 5%;
+    position: relative;
+    left: 10px;
+}
+
+#contactosarticulos2{
+    margin-top: 20px;
+}
